@@ -1,0 +1,36 @@
+{
+ "name": "GanttChartWidgetAPI",
+    "description": "Gantt Chart Widget with API",
+    "newInstancePrefix": "GanttChartWidgetAPI",
+    "eula": "",
+    "license": "Open Source",
+    "id": "GanttChartWidget",
+   "version": "1.0.1",
+    "icon": "https://planifyit.github.io/Pie_chart/PlanifyIT_Logo2.png",
+    "vendor": "Planifyit",
+    "webcomponents": [
+	{
+            "kind": "main",
+            "tag": "gantt-chart-widget-api",
+            "url": "/main.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+  ],
+  "properties": {
+    "width": {
+      "type": "integer",
+      "default": 150
+    },
+    "height": {
+      "type": "integer",
+      "default": 100
+    }
+  },
+  "methods": {
+    
+  },
+  "events": {
+    
+  }
+}
